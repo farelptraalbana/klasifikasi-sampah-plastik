@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>DSC03063_JPG.rf.3fa556bfa562ddc56db3db585f2cef04.jpg</filename>
+	<path>DSC03063_JPG.rf.3fa556bfa562ddc56db3db585f2cef04.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Bungkus Makanan</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>284</xmin>
+			<xmax>360</xmax>
+			<ymin>336</ymin>
+			<ymax>424</ymax>
+		</bndbox>
+	</object>
+</annotation>

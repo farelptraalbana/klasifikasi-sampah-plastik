@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>DSC02879_JPG.rf.f8f10ca8816de4d657bf507cc8913996.jpg</filename>
+	<path>DSC02879_JPG.rf.f8f10ca8816de4d657bf507cc8913996.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Kantong Plastik</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>310</xmin>
+			<xmax>344</xmax>
+			<ymin>310</ymin>
+			<ymax>347</ymax>
+		</bndbox>
+	</object>
+</annotation>

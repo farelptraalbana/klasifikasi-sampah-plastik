@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>DSC03041_JPG.rf.8f9292190f03af46363a73c8a260020f.jpg</filename>
+	<path>DSC03041_JPG.rf.8f9292190f03af46363a73c8a260020f.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Bungkus Minuman</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>310</xmin>
+			<xmax>336</xmax>
+			<ymin>286</ymin>
+			<ymax>349</ymax>
+		</bndbox>
+	</object>
+</annotation>

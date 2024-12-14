@@ -1,0 +1,40 @@
+<annotation>
+	<folder></folder>
+	<filename>DSC02884_JPG.rf.b82656893d90308a24b675a89e504971.jpg</filename>
+	<path>DSC02884_JPG.rf.b82656893d90308a24b675a89e504971.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Bungkus Minuman</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>301</xmin>
+			<xmax>352</xmax>
+			<ymin>199</ymin>
+			<ymax>264</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Kantong Plastik</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>266</xmin>
+			<xmax>351</xmax>
+			<ymin>428</ymin>
+			<ymax>542</ymax>
+		</bndbox>
+	</object>
+</annotation>

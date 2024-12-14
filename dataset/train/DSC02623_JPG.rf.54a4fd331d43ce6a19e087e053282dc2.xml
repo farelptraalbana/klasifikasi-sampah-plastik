@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>DSC02623_JPG.rf.54a4fd331d43ce6a19e087e053282dc2.jpg</filename>
+	<path>DSC02623_JPG.rf.54a4fd331d43ce6a19e087e053282dc2.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Botol Plastik</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>273</xmin>
+			<xmax>365</xmax>
+			<ymin>199</ymin>
+			<ymax>374</ymax>
+		</bndbox>
+	</object>
+</annotation>

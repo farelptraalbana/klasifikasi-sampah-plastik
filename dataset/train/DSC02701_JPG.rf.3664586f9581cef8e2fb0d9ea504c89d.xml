@@ -1,0 +1,40 @@
+<annotation>
+	<folder></folder>
+	<filename>DSC02701_JPG.rf.3664586f9581cef8e2fb0d9ea504c89d.jpg</filename>
+	<path>DSC02701_JPG.rf.3664586f9581cef8e2fb0d9ea504c89d.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Botol Plastik</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>169</xmin>
+			<xmax>220</xmax>
+			<ymin>284</ymin>
+			<ymax>389</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Botol Plastik</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>449</xmin>
+			<xmax>515</xmax>
+			<ymin>314</ymin>
+			<ymax>376</ymax>
+		</bndbox>
+	</object>
+</annotation>

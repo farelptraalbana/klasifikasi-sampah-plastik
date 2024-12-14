@@ -1,0 +1,18 @@
+TRAIN_DIR_IMAGES: "dataset/train"
+TRAIN_DIR_LABELS: "dataset/train"
+VALID_DIR_IMAGES: "dataset/valid"
+VALID_DIR_LABELS: "dataset/valid"
+
+CLASSES:
+    [
+        "Kantong Plastik",
+        "Botol Plastik",
+        "Bungkus Makanan",
+        "Bungkus Minuman",
+    ]
+
+# Number of classes (object classes + 1 for background class in Faster R-CNN)
+NC: 4
+
+# Whether to save the predictions of the validation set while training.
+SAVE_VALID_PREDICTION_IMAGES: True

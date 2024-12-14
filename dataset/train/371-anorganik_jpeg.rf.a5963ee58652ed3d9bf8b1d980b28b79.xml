@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>371-anorganik_jpeg.rf.a5963ee58652ed3d9bf8b1d980b28b79.jpg</filename>
+	<path>371-anorganik_jpeg.rf.a5963ee58652ed3d9bf8b1d980b28b79.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Bungkus Makanan</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>244</xmin>
+			<xmax>343</xmax>
+			<ymin>208</ymin>
+			<ymax>359</ymax>
+		</bndbox>
+	</object>
+</annotation>

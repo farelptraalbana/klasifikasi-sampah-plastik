@@ -1,0 +1,40 @@
+<annotation>
+	<folder></folder>
+	<filename>144-anorganik_jpeg.rf.711971200fa8a79a0bd99fe2ac533c1d.jpg</filename>
+	<path>144-anorganik_jpeg.rf.711971200fa8a79a0bd99fe2ac533c1d.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Bungkus Minuman</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>272</xmin>
+			<xmax>358</xmax>
+			<ymin>288</ymin>
+			<ymax>380</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Bungkus Makanan</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>552</xmin>
+			<xmax>617</xmax>
+			<ymin>81</ymin>
+			<ymax>161</ymax>
+		</bndbox>
+	</object>
+</annotation>

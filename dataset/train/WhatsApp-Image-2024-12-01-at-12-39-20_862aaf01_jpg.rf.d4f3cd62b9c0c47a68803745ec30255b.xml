@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>WhatsApp-Image-2024-12-01-at-12-39-20_862aaf01_jpg.rf.d4f3cd62b9c0c47a68803745ec30255b.jpg</filename>
+	<path>WhatsApp-Image-2024-12-01-at-12-39-20_862aaf01_jpg.rf.d4f3cd62b9c0c47a68803745ec30255b.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Botol Plastik</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>270</xmin>
+			<xmax>325</xmax>
+			<ymin>237</ymin>
+			<ymax>459</ymax>
+		</bndbox>
+	</object>
+</annotation>

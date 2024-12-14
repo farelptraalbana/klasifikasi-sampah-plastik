@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>128-anorganik_jpeg.rf.4e7bfbecbe646d161050f976b411f105.jpg</filename>
+	<path>128-anorganik_jpeg.rf.4e7bfbecbe646d161050f976b411f105.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Bungkus Minuman</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>278</xmin>
+			<xmax>452</xmax>
+			<ymin>338</ymin>
+			<ymax>521</ymax>
+		</bndbox>
+	</object>
+</annotation>

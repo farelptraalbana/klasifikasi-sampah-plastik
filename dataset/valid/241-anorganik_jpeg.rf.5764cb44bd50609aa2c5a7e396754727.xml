@@ -1,0 +1,40 @@
+<annotation>
+	<folder></folder>
+	<filename>241-anorganik_jpeg.rf.5764cb44bd50609aa2c5a7e396754727.jpg</filename>
+	<path>241-anorganik_jpeg.rf.5764cb44bd50609aa2c5a7e396754727.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Kantong Plastik</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>237</xmin>
+			<xmax>370</xmax>
+			<ymin>231</ymin>
+			<ymax>358</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Kantong Plastik</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>143</xmin>
+			<xmax>264</xmax>
+			<ymin>552</ymin>
+			<ymax>641</ymax>
+		</bndbox>
+	</object>
+</annotation>

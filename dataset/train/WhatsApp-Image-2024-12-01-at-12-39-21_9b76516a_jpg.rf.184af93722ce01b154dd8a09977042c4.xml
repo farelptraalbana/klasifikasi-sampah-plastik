@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>WhatsApp-Image-2024-12-01-at-12-39-21_9b76516a_jpg.rf.184af93722ce01b154dd8a09977042c4.jpg</filename>
+	<path>WhatsApp-Image-2024-12-01-at-12-39-21_9b76516a_jpg.rf.184af93722ce01b154dd8a09977042c4.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Bungkus Minuman</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>295</xmin>
+			<xmax>335</xmax>
+			<ymin>279</ymin>
+			<ymax>358</ymax>
+		</bndbox>
+	</object>
+</annotation>
