@@ -266,6 +266,19 @@ class CustomDataset(Dataset):
         target["iscrowd"] = iscrowd
         image_id = torch.tensor([idx])
         target["image_id"] = image_id
+        
+        annotations = {
+            'image': image_resized,  # Ganti dengan variabel gambar Anda
+            'bboxes': target['boxes'],  # Ganti dengan data bounding boxes Anda
+            'labels': target['labels'],  # Ganti dengan data label Anda
+        }
+        
+        # Convert labels to a list if they are in a tensor
+        if isinstance(annotations['labels'], torch.Tensor):
+            annotations['labels'] = annotations['labels'].tolist()
+        
+        # Now apply your albumentations transformations
+        sample = self.transforms(**annotations) 
         if self.use_train_aug:  # Use train augmentation if argument is passed.
             train_aug = get_train_aug()
             sample = train_aug(image=image_resized,
