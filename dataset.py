@@ -29,6 +29,7 @@ class CustomDataset(Dataset):
         self.labels_path = labels_path
         self.height = height
         self.width = width
+        self.CLASSES = classes
         self.classes = classes
         self.train = train
         self.mosaic = mosaic
