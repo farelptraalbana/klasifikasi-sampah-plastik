@@ -267,6 +267,10 @@ class CustomDataset(Dataset):
         image_id = torch.tensor([idx])
         target["image_id"] = image_id
         
+        # Debugging: Periksa nilai boxes dan labels
+        print("Boxes:", boxes)
+        print("Labels:", labels)
+        
         annotations = {
             'image': image_resized,  # Ganti dengan variabel gambar Anda
             'bboxes': target['boxes'],  # Ganti dengan data bounding boxes Anda
