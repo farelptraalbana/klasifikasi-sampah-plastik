@@ -281,8 +281,13 @@ class CustomDataset(Dataset):
         if isinstance(annotations['labels'], torch.Tensor):
             annotations['labels'] = annotations['labels'].tolist()
         
-        # Now apply your albumentations transformations
-        sample = self.transforms(**annotations) 
+        # Validasi label
+        for label in annotations['labels']:
+            if label >= len(self.CLASSES):
+                raise ValueError(f"Invalid label: {label}. Must be less than {len(self.CLASSES)}.")
+
+        # Terapkan transformasi
+        sample = self.transforms(**annotations)
         if self.use_train_aug:  # Use train augmentation if argument is passed.
             train_aug = get_train_aug()
             sample = train_aug(image=image_resized,
